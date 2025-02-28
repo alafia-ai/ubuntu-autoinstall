@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# install autorotate shell extension
+# install autorotate shell extension, TODO: turn this into a deb
 git clone git@github.com:alafia-ai/gnome-shell-extension-screen-autorotate.git
 cp -r gnome-shell-extension-screen-autorotate/screen-rotate@shyzus.github.io ~/.local/share/gnome-shell/extensions/
 rm -rf gnome-shell-extension-screen-autorotate
