@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # install autorotate shell extension
-
-gnome-extensions install https://extensions.gnome.org/extension-data/screen-rotateshyzus.github.io.v24.shell-extension.zip
-gnome-extensions enable screen-rotate@shyzus.github.io
+git clone git@github.com:alafia-ai/gnome-shell-extension-screen-autorotate.git
+cp -r gnome-shell-extension-screen-autorotate/screen-rotate@shyzus.github.io ~/.local/share/gnome-shell/extensions/
+rm -rf gnome-shell-extension-screen-autorotate
 
 # install accel-sensor-bridge
 wget https://github.com/imrisaac/iio_accel_screen_rotation/raw/refs/heads/main/accel-sensor-bridge.deb
